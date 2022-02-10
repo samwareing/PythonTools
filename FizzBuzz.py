@@ -1,7 +1,8 @@
 class FizzBuzz:
-    '''An extendable FizzBuzz.'''
+    '''An extendable FizzBuzz. This allows other options other than fizz or buzz.'''
 
     def run(self, n=101, tokens=((3, 'fizz'), (5, 'buzz'))) -> str:
+        '''Run the FizzBuzz algorithm'''
         result = ''
         for i in range(1, n):
             current = ''
